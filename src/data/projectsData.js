@@ -84,7 +84,7 @@ const projectsData = [
     title: "Portfolio Website",
     description: "Personal portfolio with modern responsive UI/UX.",
     image:project9,
-    viewProject: "https://my-portfolio-drab-ten-96.vercel.app/",
+    viewProject: "https://my-portfolio-git-main-jananis-projects-2b35eecc.vercel.app/",
     viewCode: "https://github.com/Janani-2403/my-portfolio.git",
   },
   {
