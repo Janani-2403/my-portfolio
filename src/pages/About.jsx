@@ -33,10 +33,11 @@ const About = () => (
           <ul>
             <li><strong>Birthday:</strong> 24 March 2005</li>
             <li><strong>Website:</strong> 
-              <a href="https://my-portfolio-git-main-jananis-projects-2b35eecc.vercel.app/" target="_blank" rel="noreferrer">
-                your-portfolio-link.netlify.app
-              </a>
-            </li>
+  <a href="https://my-portfolio-git-main-jananis-projects-2b35eecc.vercel.app/" target="_blank" rel="noreferrer">
+    my-portfolio-git-main-jananis-projects-2b35eecc.vercel.app
+  </a>
+</li>
+
             <li><strong>Phone:</strong> +91 6380598123</li>
             <li><strong>City:</strong> Erode, India</li>
           </ul>
