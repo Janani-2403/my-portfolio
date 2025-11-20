@@ -33,7 +33,7 @@ const About = () => (
           <ul>
             <li><strong>Birthday:</strong> 24 March 2005</li>
             <li><strong>Website:</strong> 
-              <a href="https://your-portfolio-link.netlify.app" target="_blank" rel="noreferrer">
+              <a href="https://my-portfolio-drab-ten-96.vercel.app/" target="_blank" rel="noreferrer">
                 your-portfolio-link.netlify.app
               </a>
             </li>

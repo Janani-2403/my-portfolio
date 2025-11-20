@@ -84,8 +84,8 @@ const projectsData = [
     title: "Portfolio Website",
     description: "Personal portfolio with modern responsive UI/UX.",
     image:project9,
-    viewProject: "https://janani-portfolio.netlify.app/",
-    viewCode: "https://github.com/Janani/portfolio",
+    viewProject: "https://my-portfolio-drab-ten-96.vercel.app/",
+    viewCode: "https://github.com/Janani-2403/my-portfolio.git",
   },
   {
     id: 10,
