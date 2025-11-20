@@ -1,6 +1,5 @@
 import "../styles/pages/about.css";
-import profileImage from "../assets/images/profile.jpg";
-import resumePDF from "../assets/resume/Resume final.pdf";
+import resumePDF from "../assets/resume/JANANI.B- RESUME.pdf";
 
 
 const About = () => (
@@ -14,10 +13,6 @@ const About = () => (
     </p>
 
     <div className="about-content">
-      {/* Profile Image */}
-      <div className="about-image">
-        <img src={profileImage} alt="Janani" />
-      </div>
 
       {/* About Details */}
       <div className="about-details">
@@ -33,8 +28,8 @@ const About = () => (
           <ul>
             <li><strong>Birthday:</strong> 24 March 2005</li>
             <li><strong>Website:</strong> 
-  <a href="https://my-portfolio-git-main-jananis-projects-2b35eecc.vercel.app/" target="_blank" rel="noreferrer">
-    my-portfolio-git-main-jananis-projects-2b35eecc.vercel.app
+  <a href="https://my-portfolio-drab-ten-96.vercel.app/" target="_blank" rel="noreferrer">
+   my-portfolio-drab-ten-96.vercel.app
   </a>
 </li>
 
