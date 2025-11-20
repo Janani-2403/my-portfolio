@@ -1,0 +1,233 @@
+/* ===============================
+   CONTACT SECTION
+   =============================== */
+.contact-section {
+  padding: 80px 8%;
+  background: radial-gradient(circle at top left, #f7faff 0%, #eaf1ff 100%);
+  background-image: url("https://www.transparenttextures.com/patterns/paper-fibers.png");
+  background-blend-mode: lighten;
+  color: #222;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.6;
+  margin-top: -15px;
+}
+
+/* ---------- Section Titles ---------- */
+.section-title {
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #007bff;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+.section-subtitle {
+  text-align: center;
+  color: #555;
+  margin-bottom: 50px;
+  font-size: 1rem;
+}
+
+/* ---------- Layout ---------- */
+.contact-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  width: 100%;
+  max-width: 1100px;
+}
+
+/* ---------- Info Box & Form ---------- */
+.contact-info,
+.contact-form {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 16px;
+  padding: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0 10px 30px rgba(0, 123, 255, 0.08);
+  transition: all 0.3s ease;
+}
+
+.contact-info:hover,
+.contact-form:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 35px rgba(0, 123, 255, 0.15);
+}
+
+/* Info Text */
+.contact-info h3 {
+  color: #007bff;
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.contact-info p {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 12px;
+}
+
+/* ---------- Form Fields ---------- */
+.contact-form .form-group {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #cfd8f3;
+  border-radius: 8px;
+  font-size: 1rem;
+  background: #fff;
+  transition: 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 6px rgba(0, 123, 255, 0.25);
+}
+
+/* ---------- Button ---------- */
+.send-btn {
+  display: inline-block;
+  padding: 12px 28px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s ease;
+  margin-top: 10px;
+  border: none;
+}
+
+.send-btn:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.status-message {
+  margin-top: 15px;
+  font-weight: 500;
+  text-align: center;
+  color: #007bff;
+}
+
+/* ===============================
+   DARK MODE
+   =============================== */
+.dark .contact-section {
+  background: linear-gradient(135deg, #0d1117, #161b22);
+  color: #eaeaea;
+}
+
+.dark .section-title { color: #58a6ff; }
+.dark .section-subtitle { color: #c9d1d9; }
+
+.dark .contact-info,
+.dark .contact-form {
+  background: rgba(22, 27, 34, 0.95);
+  border: 1px solid rgba(240, 246, 252, 0.1);
+}
+
+.dark .contact-info h3 { color: #58a6ff; }
+
+.dark .contact-info p,
+.dark .contact-form input,
+.dark .contact-form textarea {
+  color: #eaeaea;
+  background: rgba(13, 17, 23, 0.8);
+  border: 1px solid rgba(56, 139, 253, 0.2);
+}
+
+.dark .send-btn {
+  background: linear-gradient(--primary-color);
+}
+
+.dark .send-btn:hover {
+  background: linear-gradient(rgb(26, 119, 156));
+}
+
+/* ===============================
+   RESPONSIVE BREAKPOINTS
+   =============================== */
+
+/* ✅ Tablets */
+@media (max-width: 1024px) {
+  .contact-container {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+}
+
+/* ✅ Small Tablets & Phones */
+@media (max-width: 768px) {
+  .contact-section {
+    padding: 60px 6%;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .contact-info,
+  .contact-form {
+    padding: 30px;
+  }
+}
+
+/* ✅ Phones */
+@media (max-width: 480px) {
+  .contact-section {
+    padding: 50px 5%;
+    margin-top: 3px;
+  }
+
+.contact-container{
+  margin-right: 15px;
+}
+
+  .section-title {
+    font-size: 1.7rem;
+  }
+
+  .contact-form .form-group {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .send-btn {
+    width: 100%;
+  }
+}
+
+/* ✅ Ultra Small Devices (less than 320px) */
+@media (max-width: 320px) {
+  .contact-section {
+    padding: 40px 4%;
+  }
+
+  .contact-info,
+  .contact-form {
+    padding: 20px;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .section-subtitle {
+    font-size: 0.85rem;
+  }
+}

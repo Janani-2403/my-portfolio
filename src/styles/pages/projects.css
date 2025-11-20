@@ -1,0 +1,102 @@
+/* 🌞 LIGHT MODE PROJECTS SECTION */
+.projects {
+  text-align: center;
+  padding: 3rem 2rem;
+
+  /* Same background as About page */
+  background: radial-gradient(circle at top left, #f7faff 0%, #eaf1ff 100%);
+  background-image: url("https://www.transparenttextures.com/patterns/paper-fibers.png");
+  background-blend-mode: lighten;
+
+  color: #333;
+}
+
+/* ---- Section Title ---- */
+.projects h2 {
+  color: var(--primary-color, #007bff);
+  margin-bottom: 2.5rem;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+/* ---- Grid Layout ---- */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+}
+
+/* =============== RESPONSIVE BREAKPOINTS =============== */
+
+/* Large Screens (≥ 1280px) */
+@media (min-width: 1280px) {
+  .projects {
+    padding: 4rem 5rem;
+  }
+  .projects h2 {
+    font-size: 2.6rem;
+  }
+}
+
+/* Tablets (≤ 1024px) */
+@media (max-width: 1024px) {
+  .projects {
+    padding: 3rem;
+  }
+  .projects h2 {
+    font-size: 2.1rem;
+  }
+}
+
+/* Tablets + Large Phones (≤ 768px) */
+@media (max-width: 768px) {
+  .projects {
+    padding: 2.5rem 1.5rem;
+  }
+  .projects h2 {
+    font-size: 1.9rem;
+  }
+  .projects-grid {
+    gap: 1.5rem;
+  }
+}
+
+/* Small Phones (≤ 480px) */
+@media (max-width: 480px) {
+  .projects {
+    padding: 2rem 1rem;
+  }
+  .projects h2 {
+    font-size: 1.7rem;
+  }
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Extra Small Phones (≤ 320px) */
+@media (max-width: 320px) {
+  .projects {
+    padding: 1.5rem 0.5rem;
+  }
+  .projects h2 {
+    font-size: 1.5rem;
+  }
+  .projects-grid {
+    gap: 1rem;
+  }
+}
+
+/* =============== DARK MODE SUPPORT =============== */
+.dark .projects {
+  background: radial-gradient(circle at top left, #1c1c1c 0%, #0f0f0f 100%);
+  background-image: url("https://www.transparenttextures.com/patterns/dark-mosaic.png");
+  background-blend-mode: multiply;
+
+  color: #f5f5f5;
+}
+
+.dark .projects h2 {
+  color: #4da6ff;
+}
